@@ -1,0 +1,197 @@
+# Logfile created on 2013-11-01 18:28:43 -0400 by logger.rb/36483
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Starting the New Relic agent in "development" environment.
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Reading configuration from 
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Enabling the Request Sampler.
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Enabling the Request Sampler.
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Environment: development
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : No known dispatcher detected.
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Application: development
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Installing ActiveRecord 4 instrumentation
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Installing Net instrumentation
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Installing deferred Rack instrumentation
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Installing Rails 4 Controller instrumentation
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Installing Rails 4 view instrumentation
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Installing Rails4 Error instrumentation
+[11/01/13 18:28:43 -0400 lat-mharbers (58711)] INFO : Finished instrumentation
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Starting the New Relic agent in "development" environment.
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Reading configuration from 
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Enabling the Request Sampler.
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Enabling the Request Sampler.
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Environment: development
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Dispatcher: webrick
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Application: development
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Installing ActiveRecord 4 instrumentation
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Installing Net instrumentation
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Installing deferred Rack instrumentation
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Installing Rails 4 Controller instrumentation
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Installing Rails 4 view instrumentation
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Installing Rails4 Error instrumentation
+[11/01/13 18:30:42 -0400 lat-mharbers (58732)] INFO : Finished instrumentation
+[11/01/13 18:30:43 -0400 lat-mharbers (58732)] INFO : Doing deferred dependency-detection before Rack startup
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Starting the New Relic agent in "development" environment.
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Reading configuration from 
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Enabling the Request Sampler.
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Enabling the Request Sampler.
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Environment: development
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Dispatcher: webrick
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Application: development
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Installing ActiveRecord 4 instrumentation
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Installing Net instrumentation
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Installing deferred Rack instrumentation
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Installing Rails 4 Controller instrumentation
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Installing Rails 4 view instrumentation
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Installing Rails4 Error instrumentation
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Finished instrumentation
+[11/01/13 19:16:22 -0400 lat-mharbers (59029)] INFO : Doing deferred dependency-detection before Rack startup
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Starting the New Relic agent in "development" environment.
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Reading configuration from 
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Enabling the Request Sampler.
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Enabling the Request Sampler.
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Environment: development
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : No known dispatcher detected.
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Application: development
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Installing ActiveRecord 4 instrumentation
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Installing Net instrumentation
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Installing deferred Rack instrumentation
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Installing Rails 4 Controller instrumentation
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Installing Rails 4 view instrumentation
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Installing Rails4 Error instrumentation
+[11/04/13 18:55:44 -0500 lat-mharbers (68788)] INFO : Finished instrumentation
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Starting the New Relic agent in "development" environment.
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Reading configuration from 
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Enabling the Request Sampler.
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Enabling the Request Sampler.
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Environment: development
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Dispatcher: webrick
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Application: development
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Installing ActiveRecord 4 instrumentation
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Installing Net instrumentation
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Installing deferred Rack instrumentation
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Installing Rails 4 Controller instrumentation
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Installing Rails 4 view instrumentation
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Installing Rails4 Error instrumentation
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Finished instrumentation
+[11/04/13 18:58:40 -0500 lat-mharbers (68804)] INFO : Doing deferred dependency-detection before Rack startup
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Starting the New Relic agent in "development" environment.
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Reading configuration from 
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Enabling the Request Sampler.
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Enabling the Request Sampler.
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Environment: development
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Dispatcher: webrick
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Application: development
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Installing ActiveRecord 4 instrumentation
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Installing Net instrumentation
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Installing deferred Rack instrumentation
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Installing Rails 4 Controller instrumentation
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Installing Rails 4 view instrumentation
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Installing Rails4 Error instrumentation
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Finished instrumentation
+[11/04/13 19:15:30 -0500 lat-mharbers (68897)] INFO : Doing deferred dependency-detection before Rack startup
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Starting the New Relic agent in "development" environment.
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Reading configuration from 
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Enabling the Request Sampler.
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Enabling the Request Sampler.
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Environment: development
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Dispatcher: webrick
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Application: development
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Installing ActiveRecord 4 instrumentation
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Installing Net instrumentation
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Installing deferred Rack instrumentation
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Installing Rails 4 Controller instrumentation
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Installing Rails 4 view instrumentation
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Installing Rails4 Error instrumentation
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Finished instrumentation
+[11/04/13 19:16:35 -0500 lat-mharbers (68912)] INFO : Doing deferred dependency-detection before Rack startup
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Starting the New Relic agent in "development" environment.
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Reading configuration from 
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Enabling the Request Sampler.
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Enabling the Request Sampler.
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Environment: development
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Dispatcher: webrick
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Application: development
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Installing ActiveRecord 4 instrumentation
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Installing Net instrumentation
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Installing deferred Rack instrumentation
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Installing Rails 4 Controller instrumentation
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Installing Rails 4 view instrumentation
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Installing Rails4 Error instrumentation
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Finished instrumentation
+[11/05/13 11:30:52 -0500 lat-mharbers.careerbuilder.com (1603)] INFO : Doing deferred dependency-detection before Rack startup
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Starting the New Relic agent in "development" environment.
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Reading configuration from 
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Enabling the Request Sampler.
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Enabling the Request Sampler.
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Environment: development
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Dispatcher: webrick
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Application: development
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Installing ActiveRecord 4 instrumentation
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Installing Net instrumentation
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Installing deferred Rack instrumentation
+[11/05/13 11:34:49 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Installing Rails 4 Controller instrumentation
+[11/05/13 11:34:50 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Installing Rails 4 view instrumentation
+[11/05/13 11:34:50 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Installing Rails4 Error instrumentation
+[11/05/13 11:34:50 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Finished instrumentation
+[11/05/13 11:34:50 -0500 lat-mharbers.careerbuilder.com (1617)] INFO : Doing deferred dependency-detection before Rack startup
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Starting the New Relic agent in "development" environment.
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Reading configuration from 
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Enabling the Request Sampler.
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Enabling the Request Sampler.
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Environment: development
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Dispatcher: webrick
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Application: development
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Installing ActiveRecord 4 instrumentation
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Installing Net instrumentation
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Installing deferred Rack instrumentation
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Installing Rails 4 Controller instrumentation
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Installing Rails 4 view instrumentation
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Installing Rails4 Error instrumentation
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Finished instrumentation
+[11/05/13 16:37:47 -0500 lat-mharbers.careerbuilder.com (2189)] INFO : Doing deferred dependency-detection before Rack startup
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Starting the New Relic agent in "development" environment.
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Reading configuration from 
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids/HoneyDoListBids
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Enabling the Request Sampler.
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Enabling the Request Sampler.
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Environment: development
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Dispatcher: webrick
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Application: development
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Installing ActiveRecord 4 instrumentation
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Installing Net instrumentation
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Installing deferred Rack instrumentation
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Installing Rails 4 Controller instrumentation
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Installing Rails 4 view instrumentation
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Installing Rails4 Error instrumentation
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Finished instrumentation
+[11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Doing deferred dependency-detection before Rack startup
