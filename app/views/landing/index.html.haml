@@ -2,16 +2,38 @@
   = stylesheet_link_tag :landing
   = javascript_include_tag :landing
 
-= form_for :email, :url => {:controller => 'landing', :action => 'submit'} do |f|
-  .inputfield
-    = f.label :fname, 'First name'
-    = f.text_field :fname, :required => 'true'
-  .inputfield
-    = f.label :lname, 'Last name'
-    = f.text_field :lname, :required => 'true'
-  .inputfield
-    = f.label :email, 'Email address'
-    = f.text_field :email, :type => 'email', :required => 'true'
-  .submit
-    = submit_tag 'Submit', :id => 'emailSubmit'
+.row
+  #email_form.large-4.columns
+    %h3 Sign up for email alerts
+    = form_for :email, :url => {:controller => 'landing', :action => 'submit'} do |f|
+      .inputfield
+        = f.label :fname, 'First name', :class => 'large-6 columns'
+        = f.text_field :fname, :required => 'true', :class => 'large-6 columns'
+      .inputfield
+        = f.label :lname, 'Last name', :class => 'large-6 columns'
+        = f.text_field :lname, :required => 'true', :class => 'large-6 columns'
+      .inputfield
+        = f.label :email, 'Email address', :class => 'large-6 columns'
+        = f.text_field :email, :type => 'email', :required => 'true', :class => 'large-6 columns'
+      .submit
+        = submit_tag 'Submit', :id => 'emailSubmit'
 
+  .large-8.columns
+    %h1 Find the lowest prices for your home improvement projects.
+    %p This site is designed for homeowners looking to find the lowest cost for home improvement projects
+
+.row
+  .large-12.columns
+    %h2 How it works:
+    %ol
+      %li Select a home improvement category
+      %li Fill in the required information about your project
+      %li Set a budget
+      %li Your project is sent to local licensed contractors who will bid on your project
+      %li Accept the winning bid and get started on your dream space
+
+    %h2 Our commitment to you:
+    %p
+      We're homeowners too.  We know how frustrating it can be to find great contractors to work on your personal space.
+      We screen all contractors prior to allowing them to bid.  All our contractors provide documentation of insurance,
+      state licenses, and maintain integrity of its workforce. We're here for the homeowners.
