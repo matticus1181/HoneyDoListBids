@@ -195,3 +195,39 @@
 [11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Installing Rails4 Error instrumentation
 [11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Finished instrumentation
 [11/06/13 11:29:37 -0500 lat-mharbers.careerbuilder.com (6840)] INFO : Doing deferred dependency-detection before Rack startup
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Starting the New Relic agent in "development" environment.
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Reading configuration from 
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Enabling the Request Sampler.
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Enabling the Request Sampler.
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Environment: development
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Dispatcher: webrick
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Application: development
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Installing ActiveRecord 4 instrumentation
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Installing Net instrumentation
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Installing deferred Rack instrumentation
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Installing Rails 4 Controller instrumentation
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Installing Rails 4 view instrumentation
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Installing Rails4 Error instrumentation
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Finished instrumentation
+[11/06/13 12:03:59 -0500 lat-mharbers.careerbuilder.com (7934)] INFO : Doing deferred dependency-detection before Rack startup
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Starting the New Relic agent in "development" environment.
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Reading configuration from 
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] ERROR : Unable to read configuration file : Is a directory - /Users/mharbers/Desktop/HoneyDoListBids
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Enabling the Request Sampler.
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Enabling the Request Sampler.
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Environment: development
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Dispatcher: webrick
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Application: development
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Installing ActiveRecord 4 instrumentation
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Installing Net instrumentation
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Installing deferred Rack instrumentation
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Installing Rails 4 Controller instrumentation
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Installing Rails 4 view instrumentation
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Installing Rails4 Error instrumentation
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Finished instrumentation
+[11/06/13 12:11:52 -0500 lat-mharbers.careerbuilder.com (8446)] INFO : Doing deferred dependency-detection before Rack startup
