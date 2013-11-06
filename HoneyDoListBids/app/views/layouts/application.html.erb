@@ -2,8 +2,9 @@
 <html>
 <head>
   <title>HoneyDoListBids</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <%= stylesheet_link_tag 'foundation.min' %>
+  <%= yield(:head) %>
   <%= csrf_meta_tags %>
 </head>
 <body>

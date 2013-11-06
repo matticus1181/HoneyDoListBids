@@ -1,0 +1,17 @@
+- content_for :head do
+  = stylesheet_link_tag :landing
+  = javascript_include_tag :landing
+
+= form_for :email, :url => {:controller => 'landing', :action => 'submit'} do |f|
+  .inputfield
+    = f.label :fname, 'First name'
+    = f.text_field :fname, :required => 'true'
+  .inputfield
+    = f.label :lname, 'Last name'
+    = f.text_field :lname, :required => 'true'
+  .inputfield
+    = f.label :email, 'Email address'
+    = f.text_field :email, :type => 'email', :required => 'true'
+  .submit
+    = submit_tag 'Submit', :id => 'emailSubmit'
+
