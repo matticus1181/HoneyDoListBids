@@ -2,7 +2,7 @@ html,body,#wrapper {
   height: 100%;
 }
 body {
-  background-color: #f1f1f1;
+  background: #f1f1f1 url('/assets/background.jpg') no-repeat center center fixed;
   text-align: center;
   line-height: 2em;
   font-size: 16px;
@@ -17,7 +17,7 @@ h1, h2, h3 {
   width: 70%;
   max-width: 1024px;
   text-align: left;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, .8);
   margin: 0 auto;
   padding: 20px 0;
   box-sizing: border-box;
