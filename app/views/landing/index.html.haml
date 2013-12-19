@@ -3,37 +3,71 @@
   = javascript_include_tag :landing
 
 .row
-  #email_form.large-4.columns
-    %h3 Sign up for email alerts
-    = form_for :email, :url => {:controller => 'landing', :action => 'submit'} do |f|
-      .inputfield
-        = f.label :fname, 'First name', :class => 'large-6 columns'
-        = f.text_field :fname, :required => 'true', :class => 'large-6 columns'
-      .inputfield
-        = f.label :lname, 'Last name', :class => 'large-6 columns'
-        = f.text_field :lname, :required => 'true', :class => 'large-6 columns'
-      .inputfield
-        = f.label :email, 'Email address', :class => 'large-6 columns'
-        = f.text_field :email, :type => 'email', :required => 'true', :class => 'large-6 columns'
-      .submit
-        = submit_tag 'Submit', :id => 'emailSubmit'
+  .large-4.columns
+    #howItWorks.features.left_panels
+      %h2 How it works
+    #ourCommitment.features.left_panels
+      %h2 Our commitment
+    #email_box.left_panels.clearfix
+      %h3 Sign up for email alerts
+      = form_for :email, :url => {:controller => 'landing', :action => 'submit'} do |f|
+        .error
+        #sending
+          %h3 Sending...
+        #form_wrapper
+          .inputfield
+            = f.label :fname, 'First name'
+            = f.text_field :fname, :required => 'true'
+          .inputfield
+            = f.label :lname, 'Last name'
+            = f.text_field :lname, :required => 'true'
+          .inputfield
+            = f.label :email, 'Email address'
+            = f.text_field :email, :type => 'email', :required => 'true'
+          .inputfield.user_type
+            = f.radio_button :user_type, 'homeowner', :required => 'true'
+            = f.label :user_type_homeowner, 'Homeowner'
+          .inputfield.user_type.clearfix
+            = f.radio_button :user_type, 'contractor', :required => 'true'
+            = f.label :user_type_contractor, 'Contractor'
+          .inputfield.submit
+            = submit_tag 'Submit', :id => 'emailSubmit', :id => 'submit'
+  .large-8.columns.bottomWrapper
+    .bottom_info
+      %h3 Find the lowest prices for your home improvement projects.
+      %p
+        This site is designed for homeowners looking to find the lowest cost for home improvement
 
-  .large-8.columns
-    %h1 Find the lowest prices for your home improvement projects.
-    %p This site is designed for homeowners looking to find the lowest cost for home improvement projects
-
-.row
-  .large-12.columns
-    %h2 How it works:
+  #our_commitment.info_panel
+    We’re home owners too. We know how frustrating it can be to find great contractors to work on your personal space.
+    %br
+    %br
+    We screen all contractors prior to allowing them to bid. All our contractors will have to provide
+    documentation of insurance, state licenses, as well as maintain integrity of its workforce.
+    %br
+    %br
+    At any time a contractor falls below our expectations of integrity or quality,
+    we retain the right to remove them from our website.
+    %br
+    %br
+    We will only allow the best contractors to bid on your project.
+  #how_it_works.info_panel
     %ol
-      %li Select a home improvement category
-      %li Fill in the required information about your project
-      %li Set a budget
-      %li Your project is sent to local licensed contractors who will bid on your project
-      %li Accept the winning bid and get started on your dream space
-
-    %h2 Our commitment to you:
-    %p
-      We're homeowners too.  We know how frustrating it can be to find great contractors to work on your personal space.
-      We screen all contractors prior to allowing them to bid.  All our contractors provide documentation of insurance,
-      state licenses, and maintain integrity of its workforce. We're here for the homeowners.
+      %li
+        Select the home improvement category
+        %ul
+          %li Kitchen Cabinets, Flooring, Countertops, Bathroom, Septic Tank, Tree Cutting, Windows, etc.
+      %li
+        Fill in the required information needed for your project
+      %li
+        Set a maximum budget
+        %ul
+          %li The minimum bid for all projects is $1,000
+      %li
+        Your project goes out to local contractors who will bid on your project
+        %ul
+          %li Your information remains private to all contractors until you accept a bid. Your information only goes to the winning contractor
+      %li
+        Contact the contractor with the winning bid and have your dream space
+        %ul
+          %li We do the leg work for you. All contractors are license and insured and will give you the best price for your business. Stop wasting time calling around for the best prices, or paying for reviews. Let the contractors bid for your business, not the other way around!

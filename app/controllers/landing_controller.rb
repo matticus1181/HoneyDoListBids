@@ -11,6 +11,7 @@ class LandingController < ApplicationController
 
     @email = params[:email]
 
+    _gibbon.throws_exceptions = false
     response = _gibbon.lists.subscribe({
                                         :id => mailchimp_list_id,
                                         :email => params[:email],
@@ -20,6 +21,17 @@ class LandingController < ApplicationController
                                         :LNAME => params[:lname]
                                       })
 
-    render json: response
+
+
+    case response['name']
+      when 'ValidationError'
+        response = 'invalid'
+      when 'Email_NotExists'
+        response = 'notexists'
+      when 'List_AlreadySubscribed'
+        response = 'alreadysubscribed'
+    end
+
+    render text: response
   end
 end
